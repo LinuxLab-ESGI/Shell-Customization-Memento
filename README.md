@@ -154,15 +154,13 @@ Here are some special characters :
 \v – BASH version  
 \V – Extra information about the BASH version  
 \w – Current working directory (\$HOME is represented by ~)  
-\W – The basename of the working directory ($HOME is represented by ~)  
+\W – The basename of the working directory (\$HOME is represented by ~)  
 \\\! – Lists this command’s number in the history  
 \\# – This command’s command number  
 \\$ – Specifies whether the user is root (#) or otherwise ($)  
 \\\ – Backslash  
 \\[ – Start a sequence of non-displayed characters (useful if you want to add a command or instruction set to the prompt)  
 \\] – Close or end a sequence of non-displayed characters  
-
-$HOME fdsfdsfs
 
 Here is a usefull web site to generate our custom prompt :
 
