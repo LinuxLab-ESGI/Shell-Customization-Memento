@@ -165,3 +165,6 @@ Here are some special characters :
 Here is a usefull web site to generate our custom prompt :
 
 [ezprompt](http://ezprompt.net/)
+
+___
+Author : AnthonyF
