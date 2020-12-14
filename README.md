@@ -115,9 +115,9 @@ To show a message after the log in prompt, we can modify the **/etc/motd** file.
 
 Plus, we can execute some commands for the motd, we jsut have to modify the **/etc/update-motd.d/scriptname** file.
 
-Here is a usefull web site to generate ASCCI art fot hte motd :
+Here is a usefull web site to generate ASCII art fot the motd :
 
-[ASSCI Maker](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+[ASCII Maker](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
 ## The prompt
 
