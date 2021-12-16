@@ -2,6 +2,22 @@
 
 Let's see some customization for our Linux shell !
 
+- [Shell-Customization-Memento](#shell-customization-memento)
+  - [Environment variables](#environment-variables)
+    - [Usefull commands](#usefull-commands)
+      - [See environment variables](#see-environment-variables)
+      - [Temporarily manipulate environment variables](#temporarily-manipulate-environment-variables)
+      - [Permanent environment variables](#permanent-environment-variables)
+      - [User session](#user-session)
+      - [Sytem wide](#sytem-wide)
+    - [Commun variable environment](#commun-variable-environment)
+  - [Aliases](#aliases)
+    - [Some useful aliases](#some-useful-aliases)
+  - [Show some text at the log in](#show-some-text-at-the-log-in)
+    - [issue](#issue)
+    - [MOTD](#motd)
+  - [The prompt](#the-prompt)
+
 ## Environment variables
 
 Environment variables are dynamic variables used by process of the OS, they are used to allow communication between programs.  
@@ -128,7 +144,7 @@ Last but not least, now we are going to customize our prompt.
 
 The environment PS1 is our main prompt, it is the text printed before each command.
 > PS2 is for printing more input
-> PS3 for select menu 
+> PS3 for select menu
 > PS4 for debugging
 
 To edit your prompt you can add this at the end of our **./bashrc** file :
@@ -136,36 +152,38 @@ To edit your prompt you can add this at the end of our **./bashrc** file :
 
 Here are some special characters :
 
-\a – A bell character  
-\d – Date (day/month/date)  
-\D{format} – Use this to call the system to respond with the current time  
-\e – Escape character  
-\h – Hostname (short)  
-\H – Full hostname (domain name)  
-\j – Number of jobs being managed by the shell  
-\l – The basename of the shells terminal device  
-\n – New line  
-\r – Carriage return  
-\s – The name of the shell  
-\t – Time (hour:minute:second)  
-\@ – Time, 12-hour AM/PM  
-\A – Time, 24-hour, without seconds  
-\u – Current username  
-\v – BASH version  
-\V – Extra information about the BASH version  
-\w – Current working directory (\$HOME is represented by ~)  
-\W – The basename of the working directory (\$HOME is represented by ~)  
-\\\! – Lists this command’s number in the history  
-\\# – This command’s command number  
-\\$ – Specifies whether the user is root (#) or otherwise ($)  
-\\\ – Backslash  
-\\[ – Start a sequence of non-displayed characters (useful if you want to add a command or instruction set to the prompt)  
-\\] – Close or end a sequence of non-displayed characters  
+| Characters | Description                                                                                                         |
+| ---------- | ------------------------------------------------------------------------------------------------------------------- |
+| \a         | A bell character                                                                                                    |
+| \d         | Date (day/month/date)                                                                                               |
+| \D{format} | Use this to call the system to respond with the current time                                                        |
+| \e         | Escape character                                                                                                    |
+| \h         | Hostname (short)                                                                                                    |
+| \H         | Full hostname (domain name)                                                                                         |
+| \j         | Number of jobs being managed by the shell                                                                           |
+| \l         | The basename of the shells terminal device                                                                          |
+| \n         | New line                                                                                                            |
+| \r         | Carriage return                                                                                                     |
+| \s         | The name of the shell                                                                                               |
+| \t         | Time (hour:minute:second)                                                                                           |
+| \@         | Time, 12-hour AM/PM                                                                                                 |
+| \A         | Time, 24-hour, without seconds                                                                                      |
+| \u         | Current username                                                                                                    |
+| \v         | BASH version                                                                                                        |
+| \V         | Extra information about the BASH version                                                                            |
+| \w         | Current working directory (\$HOME is represented by ~)                                                              |
+| \W         | The basename of the working directory (\$HOME is represented by ~)                                                  |
+| \\\!       | Lists this command’s number in the history                                                                          |
+| \\#        | This command’s command number                                                                                       |
+| \\$        | Specifies whether the user is root (#) or otherwise ($)                                                             |
+| \\\        | Backslash                                                                                                           |
+| \\[        | Start a sequence of non-displayed characters (useful if you want to add a command or instruction set to the prompt) |
+| \\]        | Close or end a sequence of non-displayed characters                                                                 |
 
 Here is a usefull web site to generate our custom prompt :
 
 [ezprompt](http://ezprompt.net/)
 
 ___
-Updated : 12/12/2020
+Updated : 12/16/2021
 Author : AnthonyF
